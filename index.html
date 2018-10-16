@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  Brian Healy</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <h1>What a catastrophe!</h1>
+
+<button type="button" id="signup" onclick="showSign()">Sign up</button>
+<button type="button" id="login" onclick="showLogIn()">Log In</button>
+
+<div id="logInDiv">
+   <form>
+     User Name: <br>
+      <input type="text" lUserName ="UserName"><br>
+     Password: <br>
+     <input type="text" lPassword ="Password"><br>
+     <input type="submit" value="Submit">
+     </form>
+</div>
+
+<div id="signupDiv">
+  <form action="insert.php" method="post">
+    First Name: <br>
+    <input type="text" name="FirstName"><br>
+    Last Name: <br>
+    <input type="text" name="LastName"><br>
+    User Name: <br>
+    <input type="text" name="UserName"><br>
+    Password: <br>
+    <input type="text" name="Password"><br>
+    Confirm Password: <br>
+    <input type="text" name="UConPassword"><br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
